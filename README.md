@@ -67,7 +67,7 @@ Create an endpoint that takes a category as input and randomly selects a restaur
 #### Revision History  
 - [1/9/25] done  
 
-# Review by: 
+# Review by: David Monterrosa
 
 
-### Overall Feedback
+### Overall Feedback: Your GuessIt does not have three different endpoints. Each endpoint will appear in swagger. So you should be using 3 "[HttpGet]" and "[Route("Example/{parameter}")]". Magic 8 Ball and Restaurant Picker appear to work correctly. Great job with validation.
