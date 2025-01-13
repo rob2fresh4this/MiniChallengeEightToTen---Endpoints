@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "CEsRh6PERU8=",
   "success": true,
   "projectFilePath": "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\MiniChallengeEightToTen - Endpoints\\MiniChallengeEightToTen - Endpoints.csproj",
+=======
+  "dgSpecHash": "w1LseaiqycU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\1Copys\\MiniChallengeEightToTen---Endpoints\\MiniChallengeEightToTen - Endpoints.csproj",
+>>>>>>> 55aad3c1e7dc725710628102e2cbf130031a3a2b
   "expectedPackageFiles": [
     "C:\\Users\\grijr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\grijr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

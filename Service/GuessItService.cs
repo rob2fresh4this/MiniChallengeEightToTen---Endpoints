@@ -12,61 +12,71 @@ namespace MiniChallengeEightToTen___Endpoints.Service
         {
             reply = "Error: No number guessed";
         }
-        public string GetResponse(string mode, string guess)
+        public string EasyMode(string guess)
         {
-            mode = mode.ToLower();
             if (!int.TryParse(guess, out int convertedGuess))
             {
                 return "Invalid guess. Please enter a valid number.";
             }
 
-            switch (mode)
+            int rng = new Random().Next(1, 11);
+            if (convertedGuess == rng)
             {
-                case "easy":
-                    int rng = new Random().Next(1, 11);
-                    if (convertedGuess == rng)
-                    {
-                        reply = "Correct!";
-                    }
-                    else if (convertedGuess > rng)
-                    {
-                        reply = "Lower!";
-                    }
-                    else if (convertedGuess < rng)
-                    {
-                        reply = "Higher!";
-                    }
-                    break;
-                case "medium":
-                    int MediumRng = new Random().Next(1, 51);
-                    if (convertedGuess == MediumRng)
-                    {
-                        reply = "Correct!";
-                    }
-                    else if (convertedGuess > MediumRng)
-                    {
-                        reply = "Lower!";
-                    }
-                    else if (convertedGuess < MediumRng)
-                    {
-                        reply = "Higher!";
-                    }
-                    break;
-                case "hard":
-                    int HardRng = new Random().Next(1, 101);
-                    if (convertedGuess == HardRng)
-                    {
-                        reply = "Correct!";
-                    }
-                    else if (convertedGuess > HardRng)
-                    {
-                        reply = "Lower!";
-                    }
-                    else if (convertedGuess < HardRng)
-                    {
-                        reply = "Higher!";
-                    }
-                    break;
+                reply = "Correct!" + " The number was " + rng;
+            }
+            else if (convertedGuess > rng)
+            {
+                reply = "Lower!" + " The number was " + rng;
+            }
+            else if (convertedGuess < rng)
+            {
+                reply = "Higher!" + " The number was " + rng;
+            }
+            return reply;
+        }
+
+        public string MediumMode(string guess)
+        {
+            if (!int.TryParse(guess, out int convertedGuess))
+            {
+                return "Invalid guess. Please enter a valid number.";
+            }
+
+            int rng = new Random().Next(1, 51);
+            if (convertedGuess == rng)
+            {
+                reply = "Correct!" + " The number was " + rng;
+            }
+            else if (convertedGuess > rng)
+            {
+                reply = "Lower!" + " The number was " + rng;
+            }
+            else if (convertedGuess < rng)
+            {
+                reply = "Higher!" + " The number was " + rng;
+            }
+            return reply;
+        }
+
+        public string HardMode(string guess)
+        {
+            if (!int.TryParse(guess, out int convertedGuess))
+            {
+                return "Invalid guess. Please enter a valid number.";
+            }
+
+            int rng = new Random().Next(1, 101);
+            if (convertedGuess == rng)
+            {
+                reply = "Correct!" + " The number was " + rng;
+            }
+            else if (convertedGuess > rng)
+            {
+                reply = "Lower!" + " The number was " + rng;
+            }
+            else if (convertedGuess < rng)
+            {
+                reply = "Higher!" + " The number was " + rng;
             }
             return reply;
         }

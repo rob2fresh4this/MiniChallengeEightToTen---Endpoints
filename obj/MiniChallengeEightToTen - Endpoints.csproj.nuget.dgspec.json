@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\MiniChallengeEightToTen - Endpoints\\MiniChallengeEightToTen - Endpoints.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\MiniChallengeEightToTen - Endpoints\\MiniChallengeEightToTen - Endpoints.csproj",
         "packagesPath": "C:\\Users\\grijr\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\MiniChallengeEightToTen - Endpoints\\obj\\",
+=======
+    "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\1Copys\\MiniChallengeEightToTen---Endpoints\\MiniChallengeEightToTen - Endpoints.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\1Copys\\MiniChallengeEightToTen---Endpoints\\MiniChallengeEightToTen - Endpoints.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\1Copys\\MiniChallengeEightToTen---Endpoints\\MiniChallengeEightToTen - Endpoints.csproj",
+        "projectName": "MiniChallengeEightToTen - Endpoints",
+        "projectPath": "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\1Copys\\MiniChallengeEightToTen---Endpoints\\MiniChallengeEightToTen - Endpoints.csproj",
+        "packagesPath": "C:\\Users\\grijr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\grijr\\VScode\\CodeStack 24-25\\Season 3 BackEnd\\1Copys\\MiniChallengeEightToTen---Endpoints\\obj\\",
+>>>>>>> 55aad3c1e7dc725710628102e2cbf130031a3a2b
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grijr\\AppData\\Roaming\\NuGet\\NuGet.Config"
